@@ -26,6 +26,18 @@ correo_electronico, numero_seguro_medico, razon_cita, sintomas_quejas, estado_ci
 VALUES ('Juan Pérez', '1990-05-10', 'Masculino', 'Calle Principal 123', '123456789', 
 'juan@example.com', '12345678', 'Consulta médica', 'Dolor de cabeza y fiebre', 'confirmo');
 
+INSERT INTO Paciente (nombre_completo, fecha_nacimiento, genero, direccion, telefono, 
+correo_electronico, numero_seguro_medico, razon_cita, sintomas_quejas, estado_cita) 
+VALUES ('Willy David', '1990-05-10', 'Masculino', 'Calle Principal 123', '123456789', 
+'juan@example.com', '12345678', 'Consulta médica', 'Dolor de cabeza y fiebre', 'confirmo');
+INSERT INTO Paciente (nombre_completo, fecha_nacimiento, genero, direccion, telefono, 
+correo_electronico, numero_seguro_medico, razon_cita, sintomas_quejas, estado_cita) 
+VALUES ('Miguel Ybañez', '1990-05-10', 'Masculino', 'Calle Principal 123', '127756789', 
+'juan@example.com', '12345678', 'Consulta médica', 'Covid', 'confirmo');
+INSERT INTO Paciente (nombre_completo, fecha_nacimiento, genero, direccion, telefono, 
+correo_electronico, numero_seguro_medico, razon_cita, sintomas_quejas, estado_cita) 
+VALUES ('Johan Moreno', '1990-05-10', 'Masculino', 'Calle Principal 123', '123446789', 
+'juan@example.com', '12345678', 'Consulta médica', 'Gripe', 'confirmo');
 #Agregar una cita con datos obligatorios
 insert into Paciente(nombre_completo, fecha_nacimiento, genero) 
 values ('Dominik Mendoza', '1990-07-10', 'Masculino');
